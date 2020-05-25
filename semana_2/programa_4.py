@@ -1,0 +1,21 @@
+class vacaciones:
+  def __init__(self):
+    print("Lugar")
+    print("fecha")
+    print("Hora de salida")
+    print("hora de llegada")
+    print("Actividades")
+    print("transporte")
+    print("Hospedaje")
+    print("Costos")
+    print("Personas")
+    print("tiempo de estansia")
+  def metodos(self):
+    print("MEtodos")
+    print("Divertirse")
+    print("Desaburrirse")
+    print("Convivir")
+    print("Conocer")
+    print("Relajarse")
+objeto_vacaciones=vacaciones()
+objeto_vacaciones.metodos()

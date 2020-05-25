@@ -1,0 +1,21 @@
+class serie:
+  def __init__(self):
+    print("Canal")
+    print("Hora de transmicion")
+    print("capitulos")
+    print("canal")
+    print("actores")
+    print("Extras")
+    print("Trama")
+    print("Genero")
+    print("clacificacion")
+    print("teimpo de capitulos")
+  def metodos(self):
+    print("MEtodos")
+    print("Divertirse")
+    print("Desaburrirse")
+    print("Convivir")
+    print("Entretener")
+    print("Relajarse")
+objeto_serie=serie()
+objeto_serie.metodos()
