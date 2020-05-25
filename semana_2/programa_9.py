@@ -1,0 +1,22 @@
+class cajero:
+  def __init__(self):
+    print("Atributos")
+    print("color") 
+    print("Compañia") 
+    print("puerta de entrada") 
+    print("teclas") 
+    print("Entrada de tarjeta")
+    print("Empleados de revicion")
+    print("Ubicacion")
+    print("pantalla")
+    print("Dueño")
+    print("Tipo de cajero")
+  def metodos(self):
+    print("Metodos")
+    print("Trasferir")
+    print("sacar tiquet de estado")
+    print("Retiro")
+    print("Consultar Saldo")
+    print("depositar")
+objeto = cajero() 
+objeto.metodos() 
