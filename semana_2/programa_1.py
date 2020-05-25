@@ -1,0 +1,22 @@
+class Banco:
+  def __init__(self):
+    print("Atributos")
+    print("cajeros") 
+    print("Compañia") 
+    print("Asientos") 
+    print("Computadoras") 
+    print("Escritorios")
+    print("Empleados")
+    print("Ubicacion")
+    print("Intereses")
+    print("Dueño")
+    print("Tipo de banco")
+  def metodos(self):
+    print("Metodos")
+    print("Trasferir")
+    print("Cobrar")
+    print("Prestar")
+    print("Consultar Saldo")
+    print("depositar")
+objeto = Banco() 
+objeto.metodos() 
