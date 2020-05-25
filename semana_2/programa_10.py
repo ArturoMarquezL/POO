@@ -1,0 +1,22 @@
+class google_classroom:
+  def __init__(self):
+    print("Atributos")
+    print("Clases") 
+    print("Trabajos") 
+    print("Tareas") 
+    print("Informacion") 
+    print("Calendario")
+    print("Archivero")
+    print("Alumnos")
+    print("Herramientas de trabajo")
+    print("Materias")
+    print("Somentarios")
+  def metodos(self):
+    print("Metodos")
+    print("Enseñar")
+    print("Comunicar")
+    print("Calificar")
+    print("Consultar")
+    print("Organizar")
+objeto = google_classroom() 
+objeto.metodos()
