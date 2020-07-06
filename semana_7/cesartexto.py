@@ -18,7 +18,7 @@ class CodigoCesarArchivos: #clase primaria
             if pregunta == "cifrar" or pregunta == "Cifrar": #si es cifrar
                 abrir = open(archivo, "w") #abre archivo para sustituir el texto
                 for scannear in leer: #lee el archivo 
-                    alfabeto = ord(scannear) #lo convierte a su codigo ASCII
+                    alfabeto = ord(scannear)#lo convierte a su codigo ASCII
                     cifrar += chr(alfabeto - 7)#le resta al codigo ASCII 7 y los convierte en su propio caracter
                 abrir.write(cifrar) #se cifra el archivo rescribiendo el cifrado
                 print(cifrar) #imprime el cifrado que se le dio al texto
