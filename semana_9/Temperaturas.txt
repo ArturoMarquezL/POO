@@ -1,0 +1,4 @@
+los datos son {73.4: '23 junio', 91.4: '24 junio'}
+La temperatura mas alta es de: (91.4, '24 junio')
+El promedio en centigrados es de: 28.0
+El promedio en farentheit es de: 82.4

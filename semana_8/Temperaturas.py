@@ -15,7 +15,7 @@ class Temperaturas:#definimos la clase
             centigrados.append(temperatura) #agraga los valores de temperatura a la variable centigrados
             convertir=(temperatura*9/5)+32 #convierte los centigrados a farentheit
             farentheit.append(convertir) #agrega la convercion a la variable farentheit
-            respuesta=input("¿Deseas leer otra temperatura? ") #pregunta si otra temperatura
+            respuesta=input("¿Deseas ingresar otra temperatura? ") #pregunta si otra temperatura
             if respuesta=="N" or respuesta=="n": #si la se respuesta es N o n
 
                 abrir=open("Temperaturas.txt","a") #abre el archivo de texto en modo de agregar
